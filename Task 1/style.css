@@ -1,0 +1,64 @@
+.container {
+    width: 300px;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgba(55, 55, 55, 0.5);
+    
+    width: 30%;
+    border-radius: 10px;
+    
+  }
+
+  .container h2{
+    text-align: center;
+    color: white;
+    font-family:popins;
+    font-size: 30px;
+
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    color: whitesmoke;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    background: transparent;
+    outline: none;
+    border: none ;
+    border-bottom: 2px solid black;
+  }
+  
+#btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+
+#video{
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+#btn:hover{
+    color:black;
+    background-color: whitesmoke;
+    transition: 1s;
+}
